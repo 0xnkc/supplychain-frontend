@@ -47,6 +47,15 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-sm-6 ">
+                        <div class="white-box">
+                            <h3 class="box-title">Logistics Tracking</h3>
+                            <ul class="list-inline two-part">
+                                <a href="track.php" class="btn btn-rounded btn-block btn-info">Track</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <!--row -->
                 <!-- /.row -->
                 
