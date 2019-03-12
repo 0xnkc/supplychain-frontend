@@ -13,7 +13,7 @@
     </style>
   </head>
   <body>
-    <h3>Tracking ID:XXXXXXXX</h3>
+    <h3>Tracking ID:27673git config --global user.email</h3>
     <br>
     <div id="chart_div" style="width: 400px; height: 120px;"></div>
     <!--The div element for the map -->
@@ -24,7 +24,7 @@
    
 </div>
     <script>
-// Initialize and add the map
+// Initialize and add the map..
 function initMap() {
   // The location of Uluru
   var uluru = {lat: 13.128851, lng: 77.5750407};
