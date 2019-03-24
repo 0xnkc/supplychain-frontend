@@ -23,34 +23,34 @@
 <body>
     <!-- Preloader -->
     <div class="preloader">
-        <div class="cssload-speeding-wheel"></div>
+        <div class="cssload-speeding-wheel"></div>ß
     </div>
     <section id="wrapper" class="login-register">
         <div class="login-box">
             <div class="white-box">
-                    <div class="form-group text-center">
-                        <div class="col-xs-12">
-                             <!-- <img src="dist/images/imperialsofetch.png"/> -->
-                             <img src="plugins/images/block.png" style="width: 225px; height: 225px;" />
-                        </div>
+                <div class="form-group text-center">
+                    <div class="col-xs-12">
+                        <!-- <img src="dist/images/imperialsofetch.png"/> -->
+                        <img src="plugins/images/block.png" style="width: 225px; height: 225px;" />
                     </div>
-                    <div class="form-group  text-center">
-                        <div class="col-xs-12">
-                           <h4><b>Welcome to Agri-Food Supply Chain Traceability System Based on RFID and Block Chain Technology</b></h4>
-                            <h6>Supplychain using Ethereum smart contract, web3 and many more.</h6>
-                        </div>
+                </div>
+                <div class="form-group  text-center">
+                    <div class="col-xs-12">
+                        <h4><b>Welcome to Agri-Food Supply Chain Traceability System Based on RFID and Block Chain Technology</b></h4>
+                        <h6>Supplychain using Ethereum smart contract, web3 and many more.</h6>
                     </div>
-                    <div class="form-group text-center">
-                        <div class="col-xs-6 p-b-20">
-                            <a href="https://metamask.io/" target="_blank" class="btn btn-rounded btn-block btn-primary">Get MetaMask</a>
-                        </div>
-                        <div class="col-xs-6 p-b-20">
-                            <a href="admin.php" class="btn btn-rounded btn-block btn-info">Admin Log In</a>
-                        </div>
-                         <div class="col-xs-6 p-b-20">
-                            <a href="user.php" class="btn btn-rounded btn-block btn-info">User Log In</a>
-                        </div>
-                    </div>   
+                </div>
+                <div class="form-group text-center">
+                    <div class="col-xs-6 p-b-20">
+                        <a href="https://metamask.io/" target="_blank" class="btn btn-rounded btn-block btn-primary">Get MetaMask</a>
+                    </div>
+                    <div class="col-xs-6 p-b-20">
+                        <a href="admin.php" class="btn btn-rounded btn-block btn-info">Admin Log In</a>
+                    </div>
+                    <div class="col-xs-6 p-b-20">
+                        <a href="user.php" class="btn btn-rounded btn-block btn-info">User Log In</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -71,5 +71,4 @@
     <!--Style Switcher -->
 </body>
 
-</html>
-
+</html> 
