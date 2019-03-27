@@ -119,7 +119,7 @@
             });
         }
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?sensor=true&callback=initMap">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCBgQHAIYpkFKf9_YhlKRpkYn1YZ0Rj-s&callback=initMap">
     </script>
     <script type='text/javascript' src='http://code.jquery.com/jquery-latest.min.js'></script>
 
