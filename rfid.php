@@ -46,7 +46,7 @@
         });
         //var database = firebase.database();
         database.ref().once('value', function(snapshot) {
-            var chSnapshot = snapshot.child("data");
+            var chSnapshot = snapshot.child("importerdata");
             if (chSnapshot.exists()) {
                 var content = '';
                 chSnapshot.forEach(function(data) {
