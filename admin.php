@@ -46,19 +46,27 @@
                 </ul>
             </div>
         </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 ">
-        <div class="white-box">
-            <h3 class="box-title">Logistics Dashboard</h3>
-            <ul class="list-inline two-part">
-                <a href="track.php" class="btn btn-rounded btn-block btn-info">Track</a>
-            </ul>
+
+        <div class="col-lg-4 col-sm-6 ">
+            <div class="white-box">
+                <h3 class="box-title">Logistics Dashboard</h3>
+                <ul class="list-inline two-part">
+                    <a href="track.php" class="btn btn-rounded btn-block btn-info">Track</a>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 ">
+            <div class="white-box">
+                <h3 class="box-title">RFID Dashboard</h3>
+                <ul class="list-inline two-part">
+                    <a href="rfid.php" class="btn btn-rounded btn-block btn-info">View</a>
+                </ul>
+            </div>
         </div>
     </div>
+    <!--row -->
+    <!-- /.row -->
 </div>
-<!--row -->
-<!-- /.row -->
-
 
 <!-- row -->
 <div class="row">
