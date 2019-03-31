@@ -1,11 +1,11 @@
 	var globIcoAddress = {
-		/*'old-CoffeeMain': "0xfA171Cda184d815D20a318fCe9920AafdC04934e",
+    /*'old-CoffeeMain': "0xfA171Cda184d815D20a318fCe9920AafdC04934e",
 		'old-CoffeeUser': "0x26d723acFe39f93A9702592dD9371851f81cF59F",*/
-		
-		'CoffeeMain': "0x9740ff8a345e09f7e04484bdda9d044aa7bb76b8",
-		'CoffeeUser': "0xc0d99a10d2fe6b5a299199ef185db7a0b775fe2a",
-		'Storage': "0x3622dc8dd1d2657340fdcb9b93cfa06f28e55ea2"
-	};
+
+    CoffeeMain: "0x9740ff8a345e09f7e04484bdda9d044aa7bb76b8",
+		CoffeeUser: "0xc0d99a10d2fe6b5a299199ef185db7a0b775fe2a",
+    Storage: "0x3622dc8dd1d2657340fdcb9b93cfa06f28e55ea2"
+  };
 
 	var globAdminAddress = "0x817eb0ce3540a67a0b5d2d30dc87b46b77801707";
 	var globMainContract = false;
@@ -27,7 +27,7 @@
 		   //web3 = new Web3("https://rinkeby.infura.io/v3/3644fface62f4cde9f50f950f7f54970");
 		} else {
 		  // set the provider you want from Web3.providers
-		  web3 = new Web3(new Web3.providers.HttpProvider("http://127.0.0.1:7545"));
+		  web3 = new Web3(new Web3.providers.HttpProvider("http://192.168.43.149:7545"));
 		}
 		
 		getCurrentAccountAddress((address)=>{
