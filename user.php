@@ -147,7 +147,7 @@
                                         <input type="text" class="form-control" id="typeOfSeed" name="typeOfSeed" placeholder="type of seed" data-parsley-required="true">
                                     </div>
                                     <div class="form-group">
-                                        <label class="control-label" for="coffeeFamily">Coffee Family</label>
+                                        <label class="control-label" for="coffeeFamily">Plant Family</label>
                                         <input type="text" class="form-control" id="coffeeFamily" name="coffeeFamily" placeholder="coffee family" data-parsley-required="true">
                                     </div>
                                     <div class="form-group">
@@ -167,8 +167,8 @@
                                 <fieldset style="border:0;">
                                                             
                                     <div class="form-group">
-                                        <label class="control-label" for="cropVariety">Coffee Variety</label>
-                                        <input type="text" class="form-control" id="cropVariety" name="cropVariety" placeholder="coffee variety" data-parsley-required="true">
+                                        <label class="control-label" for="cropVariety">Plant Variety</label>
+                                        <input type="text" class="form-control" id="cropVariety" name="cropVariety" placeholder="Plant variety" data-parsley-required="true">
                                     </div>
                                     <div class="form-group">
                                         <label class="control-label" for="temperatureUsed">Temperature (in Fahrenheit)</label>
@@ -288,8 +288,8 @@
                                         <input type="text" class="form-control" id="processingTemperature" name="temperature" placeholder="Temperature" data-parsley-required="true">
                                     </div>                              
                                     <div class="form-group">
-                                        <label class="control-label" for="rostingDuration">Time for Roasting (in Seconds)</label>
-                                        <input type="number" min="1" class="form-control" id="rostingDuration" name="rostingDuration" placeholder="Time for roasting" data-parsley-required="true" >
+                                        <label class="control-label" for="rostingDuration">Time for Processing </label>
+                                        <input type="number" min="1" class="form-control" id="rostingDuration" name="rostingDuration" placeholder="Time for Process" data-parsley-required="true" >
                                     </div>
                                
                                     <div class="form-group">

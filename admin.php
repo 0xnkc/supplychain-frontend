@@ -120,7 +120,7 @@
 <div class="row">
     <div class="col-lg-6 col-sm-6 col-xs-12">
         <div class="white-box">
-            <h3 class="box-title">Coffee Supplychain Contract Address <i class="fa fa-qrcode fa-2x text-info"></i></h3>
+            <h3 class="box-title"> Supplychain Contract Address <i class="fa fa-qrcode fa-2x text-info"></i></h3>
             <ul class="list-inline two-part">
                 <li class="text-right" id="coffeeSupplychainContractAddress">0x0000000000000000000000000000000000000000</li>
             </ul>

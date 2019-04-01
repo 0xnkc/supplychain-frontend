@@ -5,6 +5,24 @@
 
 <head>
     <style>
+        input[type=text] {
+            width: 340px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+        }
+
+        input[type=text]:focus {
+            width: 75%;
+        }
     </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +31,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
     <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+    <script>
+        function myFunction() {
+            //var batch = document.getElementById('tex');
+            location.replace("https://www.w3schools.com")
+        }
+        }
+    </script>
     <script>
         // Initialize Firebase
         var config = {
@@ -79,6 +104,13 @@
     </script>
 
 <body>
+    <h2 class="container"> Search Batch:</h2>
+
+    <form class="container" id="demo">
+        <input type="text" name="search" id="tex" onkeypress="myFunction()" placeholder=" Search Batch By id..">
+
+    </form>
+
     <div class="container">
         <h2>Exporter Data</h2>
         <p>RFID Data </p>
@@ -86,7 +118,7 @@
             <thead>
                 <tr id="tr">
                     <th>ID</th>
-                    <th>RFID Tag Data</th>
+                    <th>RFID Tag Batch Data</th>
                     <th>TimeStamp</th>
                 </tr>
             </thead>
@@ -99,7 +131,7 @@
             <thead>
                 <tr id="tr">
                     <th>ID</th>
-                    <th>RFID Tag Data</th>
+                    <th>RFID Tag Batch Data</th>
                     <th>TimeStamp</th>
                 </tr>
             </thead>
@@ -112,7 +144,7 @@
             <thead>
                 <tr id="tr">
                     <th>ID</th>
-                    <th>RFID Tag Data</th>
+                    <th>RFID Tag Batch Data</th>
                     <th>TimeStamp</th>
                 </tr>
             </thead>
