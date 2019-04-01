@@ -1,13 +1,12 @@
 	var globIcoAddress = {
-    /*'old-CoffeeMain': "0xfA171Cda184d815D20a318fCe9920AafdC04934e",
-		'old-CoffeeUser': "0x26d723acFe39f93A9702592dD9371851f81cF59F",*/
+    
 
-    CoffeeMain: "0x9740ff8a345e09f7e04484bdda9d044aa7bb76b8",
-		CoffeeUser: "0xc0d99a10d2fe6b5a299199ef185db7a0b775fe2a",
-    Storage: "0x3622dc8dd1d2657340fdcb9b93cfa06f28e55ea2"
+		CoffeeMain: "0xd92d76d8cd8870d7a69642368950c1d324a11fc5",
+		CoffeeUser: "0xdc54bdea085aa8ed25324f8cc4386d835c6fb521",
+		Storage: "0x3cfe17b72aa1d1e5898f7b7d65ec902fc0835fbc"
   };
 
-	var globAdminAddress = "0x817eb0ce3540a67a0b5d2d30dc87b46b77801707";
+  var globAdminAddress = "0x6c427f3c532370dfa7b187e7c83b001f5bcaed34";
 	var globMainContract = false;
 	var globUserContract = false;
 	var globCoinbase = false;	

@@ -34,7 +34,7 @@
     <script>
         function myFunction() {
             //var batch = document.getElementById('tex');
-            location.replace("https://www.w3schools.com")
+            
         }
         }
     </script>
