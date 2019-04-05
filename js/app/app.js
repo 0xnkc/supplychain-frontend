@@ -26,7 +26,7 @@
 		   //web3 = new Web3("https://rinkeby.infura.io/v3/3644fface62f4cde9f50f950f7f54970");
 		} else {
 		  // set the provider you want from Web3.providers
-		  web3 = new Web3(new Web3.providers.HttpProvider("http://192.168.43.149:7545"));
+		  web3 = new Web3(new Web3.providers.HttpProvider("http://192.168.2.2:7545"));
 		}
 		
 		getCurrentAccountAddress((address)=>{
